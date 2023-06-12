@@ -1,0 +1,93 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .container{
+    margin: auto;
+    position: relative;
+    top: 25px;
+    width: 1200px;
+    height: 775px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo{
+    width: 150px;
+    height: 70px;
+    background-image: url(logo.png);
+    background-size: cover;
+    position: relative;
+    top: 50px;
+  }
+  
+  #title{
+    text-align: center;
+    line-height: 150px;
+    font-size: 25px;
+    color: lime;
+    height: 110px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .green-bar{
+    width: 900px;
+    height: 40px;
+    background-color: lime;
+    margin: auto;
+  }
+  
+  .green-box{
+    width: 600px;
+    line-height: 40px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .main-box{
+    display: inline-block;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    margin: left;
+    position: relative;  
+    left: 140px;        
+  }
+  
+  .name{
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .adresse{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .charge{
+    height: 30px;
+  }
+  
+  
+  #charge-one{
+    background-color: #fac474;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  #charge-two{
+    background-color: #43d14f;
+    width: 480px;
+    border-radius: 5px;
+  }
+  
+  #charge-three{
+    background-color: #d14355;
+    width:135px;
+    border-radius: 5px;
+  }
